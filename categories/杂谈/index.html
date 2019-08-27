@@ -19,7 +19,7 @@
         
     </title>
 
-    <link rel="canonical" href="http://yoursite.com/">
+    <link rel="canonical" href="http://yoursite.com/categories/杂谈/">
 
     <!-- Bootstrap Core CSS -->
 
@@ -215,53 +215,47 @@
                 post-container
             ">
 
-                <!-- Main Content -->
-
-
-
-
-<div class="w3-row-padding">
-	<a href="/2019/08/24/hello-world/">
-        <h2 class="post-title">
-            关于这个新博客
-        </h2>
-        <h3 class="post-subtitle">
+                
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 归档列表 -->
             
-        </h3>
-	</a>
-<div class="w3-quarter">
+            
 
-<a href="/2019/08/24/hello-world/"><img class="w3-image" src="https://acg.toubiec.cn/random.php"></a>
+             <!-- 归档列表 -->
 
-</div>
-<div class="w3-threequarter">
+            
+            <div class="one-tag-list">
+                <span class="fa fa-calendar-times-o listing-seperator" id="2019">
+                    <span class="tag-text">2019</span>
+                </span>
+                <ul>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <li >
+                    08-24
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="/2019/08/24/hello-world/" style="color: #0085a1">
+                        <span>
+                            关于这个新博客
+                        </span>
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
+                
+                </ul>
+            </div>
+            
 
-    <a href="/2019/08/24/hello-world/">
 
-        <div class="post-content-preview">
-            这是个由某大佬帮助建成的博客...
         </div>
-    </a>
-    
-        <p class="post-meta">
-            Posted by 很蔡的蒟蒻 on
-            2019-08-24
-        </p>
-    
-
+    </div>
 </div>
-</div>
-<hr>
-
-
-
-<!-- Pager -->
-
-<ul class="pager">
-    
-    
-</ul>
-
 
 
 
@@ -520,7 +514,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if ($('#tag_cloud').length !== 0) {
-        async("http://yoursite.com/index.html/js/jquery.tagcloud.js", function () {
+        async("http://yoursite.com/categories/杂谈/index.html/js/jquery.tagcloud.js", function () {
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {
